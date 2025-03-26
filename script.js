@@ -51,6 +51,16 @@ if (num1 < num2) {
     console.log("greater than OR equal to");
 }
 
+// if (num1 === num2) {
+//     console.log("Equal");
+// }   else if (num1 < num2) {
+//         console.log("Less than");
+// }       else if (num1 > num2){
+//             console.log("Greater Than");
+// }           else {
+//                 console.log("Needs to use numbers!")
+// }
+
 
 // -- THIS WAS MADE WITH JOSE --
 // if (num1 == num2) {
