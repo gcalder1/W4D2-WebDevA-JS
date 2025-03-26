@@ -23,7 +23,7 @@ document.getElementById("madlibs-output").textContent = story;
 console.log(story);
 
 //checking to see if I set up the variables correctly
-console.log(timeOfDay);
-console.log(mathResult);
-console.log(booleanValue);
-console.log(pirateReference);
+// console.log(timeOfDay);
+// console.log(mathResult);
+// console.log(booleanValue);
+// console.log(pirateReference);
