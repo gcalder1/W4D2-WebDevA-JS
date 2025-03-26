@@ -1,5 +1,4 @@
-const num1 = 10;
-const num2 = 10;
+
 // const op = "add";
 
 // the words after the declaration words are variables
@@ -41,15 +40,48 @@ const num2 = 10;
 // equal to the value of the string
 // -- PREVIOUS EXERCISE WORK --
 
-if (num1 < num2) {
-    console.log("less than");
-} else if (num1 > num2) {
-    console.log("greater than");
-} else if (num1 <= num2) {
-    console.log("less than OR equal to");
-} else if (num1 >= num2) {
-    console.log("greater than OR equal to");
+// const num1 = 10;
+// const num2 = 10;
+
+// if (num1 <= num2) {
+//     console.log("less than or equal to");
+// }
+
+// if (num1 >= num2) {
+//     console.log("greater than or equal to");
+// }
+
+
+// Nesting ifs with Wren!
+
+const destination = "mountain";
+const activity = "skiing";
+
+if (destination == "mountain") {
+    if (activity == "skiing") {
+        console.log(`Have fun ${activity} at ${destination}`)
+    } else {
+        console.log("Enjoy hiking!")
+    }
+} else {
+    console.log("Enjoy the beach!")
 }
+
+// if (num1 < num2) {
+//     console.log("less than");
+// } 
+
+// else if (num1 > num2) {
+//     console.log("greater than");
+// } 
+
+// else if (num1 == num2) {
+//     console.log("equal to");
+// } 
+
+// else if (num1 >= num2) {
+//     console.log("greater than OR equal to");
+// }
 
 // if (num1 === num2) {
 //     console.log("Equal");
