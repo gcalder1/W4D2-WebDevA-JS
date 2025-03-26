@@ -12,6 +12,8 @@ const pirateReference = {
 
 const story = `One ${timeOfDay}, I set sail on a pirate ship named 
 ${pirateReference.vessel}. The endless sea stretched endlessly before us. 
+${booleanValue ? "Since it was morning, it was easy to see across the sea thanks to the daylight." 
+: "Since it was the evening, myself and my crew used our torches to light up the way."}
 Just then, we spotted a ${pirateReference.aim} floating in the water. 
 'Could it be treasure?' the ${pirateReference.rank} exclaimed. We hauled it aboard and 
 opened it. Did you know 5 × 5 equals ${mathResult}? Incredible, right?`;
